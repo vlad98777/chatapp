@@ -59,8 +59,6 @@ namespace Сетевое_программирование_ДЗ4
         private void RegisterUser()
         {
             // Реализация регистрации пользователя
-            // Здесь можно добавить логику для проверки логина/пароля
-
             Console.Write("Введите логин: ");
             _username = Console.ReadLine();
             Broadcast($"{_username} вошел в чат.");
